@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "flix",
+    "name": "Gatoflix",
     "slug": "flix",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,22 +9,34 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#dfdfdf"
+      
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.betocosta.Gatoflix"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#dfdfdf"
+      },
+      "package": "com.betocosta.Gatoflix"
+    },
+    
+    "extra": {
+      "eas": {
+        "projectId": "b3a59f50-69c4-4550-b1af-830489e5ebc7"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b3a59f50-69c4-4550-b1af-830489e5ebc7"
     }
   }
 }
